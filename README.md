@@ -37,3 +37,45 @@ SELECT City, COUNT(*) AS TotalCustomers
 FROM Customers
 GROUP BY City
 ORDER BY TotalCustomers DESC;
+
+-- Example 6: Subquery to find customers with above-average order amount
+SELECT FirstName, LastName
+FROM Customers c
+WHERE CustomerID IN (
+    SELECT CustomerID
+    FROM Orders
+    GROUP BY CustomerID
+    HAVING AVG(Amount) > (SELECT AVG(Amount) FROM Orders)
+);
+
+-- Example 7: Create a Stored Procedure
+CREATE PROCEDURE GetCustomerOrders @CustID INT
+AS
+BEGIN
+    SELECT o.OrderID, o.OrderDate, o.Amount
+    FROM Orders o
+    WHERE o.CustomerID = @CustID;
+END;
+
+-- Example 8: Simple Trigger to log order insert
+CREATE TABLE OrderLog (
+    LogID INT IDENTITY PRIMARY KEY,
+    OrderID INT,
+    LogDate DATETIME DEFAULT GETDATE()
+);
+
+CREATE TRIGGER trg_AfterOrderInsert
+ON Orders
+AFTER INSERT
+AS
+BEGIN
+    INSERT INTO OrderLog (OrderID)
+    SELECT OrderID FROM inserted;
+END;
+
+## Sample Dashboards
+
+![Sales Dashboard](dashboards/sales_dashboard.png)  
+*Example Power BI dashboard showing sales trends by month and region*
+
+
