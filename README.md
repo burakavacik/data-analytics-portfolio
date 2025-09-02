@@ -21,10 +21,4 @@ USMC Veteran | Industrial Engineer | Data & Business Analyst | Secret Clearance
 
 ---
 
-## Sample SQL Query  
-
-```sql
--- Show all customers who live in San Francisco
-SELECT CustomerID, FirstName, LastName, City
-FROM Customers
-WHERE City = 'San Francisco';
+##
