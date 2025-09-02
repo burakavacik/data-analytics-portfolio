@@ -1,18 +1,30 @@
-# data-analytics-portfolio
-Self-developed SQL training document and sample dashboards
-# SQL Training Document
+# Data Analytics Portfolio  
 
-This repository contains a self-developed **SQL Training Document**.  
-It covers SQL fundamentals, queries, joins, functions, stored procedures, and integration with Visual Studio.  
-
-📄 Files:  
-- `SQL_Training_Document.pdf` → Full training material  
+Self-developed SQL training document and sample dashboards  
 
 ---
 
-Author: **Burak Avacık**  
-USMC Veteran | Industrial Engineer | Data & Business Analyst | Secret Clearance
+## SQL Training Document  
 
+This repository contains a self-developed **SQL Training Document**.  
+It covers SQL fundamentals, queries, joins, functions, stored procedures, triggers, views, and integration with Visual Studio.  
+
+📄 Files:  
+- `SQL_Training_Document.pdf` → Full training material  
+- `examples.sql` → Sample SQL queries  
+
+---
+
+## Author  
+
+**Burak Avacık**  
+USMC Veteran | Industrial Engineer | Data & Business Analyst | Secret Clearance  
+
+---
+
+## Sample SQL Examples  
+
+```sql
 -- Example 1: Create a simple Customers table
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY,
@@ -72,10 +84,3 @@ BEGIN
     INSERT INTO OrderLog (OrderID)
     SELECT OrderID FROM inserted;
 END;
-
-## Sample Dashboards
-
-![Sales Dashboard](dashboards/sales_dashboard.png)  
-*Example Power BI dashboard showing sales trends by month and region*
-
-
