@@ -26,9 +26,22 @@ It demonstrates skills in **Python, Pandas, statistical testing, and reporting**
 - Winsorization for outlier resistance  
 - Markdown summary report  
 
+
 ### Usage
 ```bash
 python ab_tester.py data.csv --group group --metric revenue --alpha 0.05 --winsor 0.01 --bootstrap 1000
+
+## 📈 Sample Dashboards  
+
+These dashboards demonstrate **business intelligence and KPI tracking** created with Power BI.  
+
+![Operations Dashboard](operations_dashboard.png)  
+![Sales Dashboard](sales_dashboard.png)  
+
+📄 Files:  
+- `operations_dashboard.png` → Operations dashboard screenshot  
+- `sales_dashboard.png` → Sales dashboard screenshot  
+
 
 ## Author  
 
