@@ -35,11 +35,6 @@ This chart is generated from `data.csv` using `dashboard_example.py`.
 ### Usage
 [LinkedIn Profile](https://www.linkedin.com/in/burakavacik/)
 
-```bash
-python ab_tester.py data.csv --group group --metric revenue --alpha 0.05 --winsor 0.01 --bootstrap 1000
-
-
-
 ## 📈 Sample Dashboards  
 
 These dashboards demonstrate **business intelligence and KPI tracking** created with **Power BI**.  
@@ -47,8 +42,14 @@ These dashboards demonstrate **business intelligence and KPI tracking** created 
 - **Operations Dashboard** → Tracks order volume, fulfillment time, error rates.  
 - **Sales Dashboard** → Highlights revenue trends, product performance, regional KPIs.  
 
+
 ![Operations Dashboard](operations_dashboard_powerbi.png)  
 ![Sales Dashboard](sales_dashboard_powerbi.png)  
+
+
+```bash
+python ab_tester.py data.csv --group group --metric revenue --alpha 0.05 --winsor 0.01 --bootstrap 1000
+
 
 📄 Files:  
 - `operations_dashboard_powerbi.png` → Operations dashboard (Power BI)  
