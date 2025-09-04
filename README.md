@@ -33,15 +33,17 @@ python ab_tester.py data.csv --group group --metric revenue --alpha 0.05 --winso
 
 ## 📈 Sample Dashboards  
 
-These dashboards demonstrate **business intelligence and KPI tracking** created with Power BI.  
+These dashboards demonstrate **business intelligence and KPI tracking** created with **Power BI**.  
 
-![Operations Dashboard](operations_dashboard.png)  
-![Sales Dashboard](sales_dashboard.png)  
+- **Operations Dashboard** → Tracks order volume, fulfillment time, error rates.  
+- **Sales Dashboard** → Highlights revenue trends, product performance, regional KPIs.  
+
+![Operations Dashboard](operations_dashboard_powerbi.png)  
+![Sales Dashboard](sales_dashboard_powerbi.png)  
 
 📄 Files:  
-- `operations_dashboard.png` → Operations dashboard screenshot  
-- `sales_dashboard.png` → Sales dashboard screenshot  
-
+- `operations_dashboard_powerbi.png` → Operations dashboard (Power BI)  
+- `sales_dashboard_powerbi.png` → Sales dashboard (Power BI)  
 
 ## Author  
 
