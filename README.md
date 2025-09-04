@@ -44,6 +44,14 @@ These dashboards demonstrate **business intelligence and KPI tracking** created 
 📄 Files:  
 - `operations_dashboard_powerbi.png` → Operations dashboard (Power BI)  
 - `sales_dashboard_powerbi.png` → Sales dashboard (Power BI)  
+***
+## 🛠 Tech Stack  
+- **Languages & Tools:** Python, SQL, Power BI, Tableau, Excel  
+- **Python Libraries:** Pandas, NumPy, Matplotlib, SciPy  
+- **Data Skills:** ETL pipelines, Statistical Testing, Data Visualization, Business Intelligence  
+- **Other:** DoD Secret Clearance, USMC Veteran background
+
+🔗 [LinkedIn Profile] https://www.linkedin.com/in/burakavacik/
 
 ## Author  
 
