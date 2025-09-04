@@ -33,6 +33,8 @@ This chart is generated from `data.csv` using `dashboard_example.py`.
 ![Python Dashboard](python_dashboard.png)
 
 ### Usage
+[LinkedIn Profile](https://www.linkedin.com/in/burakavacik/)
+
 ```bash
 python ab_tester.py data.csv --group group --metric revenue --alpha 0.05 --winsor 0.01 --bootstrap 1000
 
@@ -57,8 +59,6 @@ These dashboards demonstrate **business intelligence and KPI tracking** created 
 - **Python Libraries:** Pandas, NumPy, Matplotlib, SciPy  
 - **Data Skills:** ETL pipelines, Statistical Testing, Data Visualization, Business Intelligence  
 - **Other:** DoD Secret Clearance, USMC Veteran background
-
-🔗 [LinkedIn Profile] https://www.linkedin.com/in/burakavacik/
 
 ## Author  
 
