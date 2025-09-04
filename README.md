@@ -1,6 +1,6 @@
 # Data Analytics Portfolio  
 
-Self-developed SQL training document and sample dashboards.  
+Self-developed SQL training document, sample dashboards, and Python-based analytics tools.  
 
 ---
 
@@ -29,3 +29,8 @@ It demonstrates skills in **Python, Pandas, statistical testing, and reporting**
 ### Usage
 ```bash
 python ab_tester.py data.csv --group group --metric revenue --alpha 0.05 --winsor 0.01 --bootstrap 1000
+
+## Author  
+
+**Burak Avacık**  
+USMC Veteran | Industrial Engineer | Data & Business Analyst | Secret Clearance  
