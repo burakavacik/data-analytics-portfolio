@@ -33,7 +33,7 @@ It demonstrates skills in **Python, Pandas, statistical testing, and reporting**
 
 This chart is generated from `data.csv` using `dashboard_example.py`.  
 
-![Python Dashboard](dashboard.png)
+![Python Dashboard](python_dashboard.png)
 
 
 ### Usage
