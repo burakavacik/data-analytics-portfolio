@@ -24,12 +24,16 @@ It demonstrates skills in **Python, Pandas, statistical testing, and reporting**
 - Mann–Whitney U (non-parametric)  
 - Bootstrap confidence interval for lift  
 - Winsorization for outlier resistance  
-- Markdown summary report  
-
+- Markdown summary report
+  
+![Operations Dashboard](operations_dashboard_powerbi.png)  
+![Sales Dashboard](sales_dashboard_powerbi.png)  
 
 ### Usage
 ```bash
 python ab_tester.py data.csv --group group --metric revenue --alpha 0.05 --winsor 0.01 --bootstrap 1000
+
+
 
 ## 📈 Sample Dashboards  
 
