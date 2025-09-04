@@ -29,6 +29,13 @@ It demonstrates skills in **Python, Pandas, statistical testing, and reporting**
 ![Operations Dashboard](operations_dashboard_powerbi.png)  
 ![Sales Dashboard](sales_dashboard_powerbi.png)  
 
+### Python-Generated Dashboard  
+
+This chart is generated from `data.csv` using `dashboard_example.py`.  
+
+![Python Dashboard](dashboard.png)
+
+
 ### Usage
 ```bash
 python ab_tester.py data.csv --group group --metric revenue --alpha 0.05 --winsor 0.01 --bootstrap 1000
