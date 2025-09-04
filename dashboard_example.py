@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # dashboard_example.py
-# Basit KPI + Bar Chart dashboard'u: data.csv -> dashboard.png
+# Basit KPI + Bar Chart dashboard'u: data.csv -> python_dashboard.png
 
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
 CSV_PATH = "data.csv"
-OUT_PATH = "dashboard.png"
+OUT_PATH = "python_dashboard.png"   # <- burayı değiştirdik
 
 def main():
     # Veri oku
